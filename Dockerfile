@@ -16,4 +16,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8445
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
